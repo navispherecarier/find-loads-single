@@ -1,0 +1,171 @@
+.sectionOne {
+    display: flex;
+    align-items: center;
+}
+.box {
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(90, 90, 90, .1);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 32px;
+    padding: 64px;
+}
+#formss {
+    margin-top: 16px;
+}
+label {
+    color: #545658;
+    font-size: .8125rem;
+    line-height: 1.21875rem;
+}
+label.required {
+    position: relative;
+    padding-left: 12px;
+}
+label.required:before {
+    background: transparent;
+    border-radius: 50%;
+    color: #da0303;
+    content: "*";
+    font-size: 25px;
+    left: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 5px;
+}
+.box .forgot-link {
+    float: right;
+    text-decoration: none;
+    color: #0071c7;
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 600;
+}
+.box .forgot-link:hover {
+    text-decoration: underline;
+    color: #004362;
+}
+.space-outer-bottom-md {
+    margin-bottom: 16px;
+}
+#Username, #Password {
+    border: 1px solid #a9a9a9;
+    font-size: .875rem;
+    font-weight: 400;
+    height: 2.625rem;
+    line-height: 1.13125rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.checkbox-inline {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    cursor: pointer;
+    width: max-content;
+}
+.btn-block {
+    margin: 5px 0 10px;
+}
+.mainLogo {
+    width: 250;
+    height: 137;
+    margin: auto;
+}
+#Username:focus, #Password:focus {
+    outline: 1px solid #a80202;
+    border: #a80202;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #fc4747;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #fc4747;
+}
+.form-error-live-region {
+    margin-top: 4px;
+    margin-bottom: 15px;
+    /* display: none; */
+}
+.help-text {
+    font-weight: 400;
+    font-size: .8125rem;
+    color: #545658;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.help-textfooter {
+    font-weight: 400;
+    font-size: .8125rem;
+    color: #545658;
+}
+.ns-icon::before {
+    color: white;
+    background-color: rgb(218, 3, 3);
+    content: "X";
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+}
+.errorBar .help-text {
+    align-items: start;
+}
+.errorBar span {
+    line-height: 1;
+}
+.btn {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: 600;
+    min-height: 44px;
+    padding: 0.75rem;
+    text-align: center;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: normal;
+}
+.btn-primary {
+    background-color: #0071c7;
+    border-color: #0071c7;
+    box-shadow: none!important;
+    color: #fff;
+    outline: 0!important;
+}
+.btn-primary:hover {
+    background-color: #004986;
+    transition: unset;
+}
+.btn-default {
+    border: 1px solid #0071c7;
+    color: #0071c7;
+    background-color: #fff;
+}
+.btn-default:hover {
+    background-color: rgba(0,0,0,.08)!important;
+    border-color: #004986!important;
+    color: #004986!important;
+    transition: unset;
+}
+/* Media */
+@media screen and (max-width:767px) {
+    .box {
+        padding: 16px;
+    }
+}
+@media screen and (max-width:420px) {
+    .mainLogo {
+        width: 100%;
+    }
+}

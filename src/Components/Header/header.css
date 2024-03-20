@@ -1,0 +1,44 @@
+.headerTop {
+    background: #36383a;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.carrier-logo {
+    align-items: center;
+    display: flex;
+    height: 37.266px;
+}
+.carrier-logo img {
+    margin-left: 32px;
+}
+#ancLogIN {
+    padding-left: 16px;
+    padding-right: 32px;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: .025rem;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Media */
+@media screen and (max-width:767px) {
+    .carrier-logo img {
+        margin-left: 16px;
+    }
+}
+@media screen and (max-width:420px) {
+    .carrier-logo img {
+        margin-left: 16px;
+        width: 250px;
+    }
+}
+@media screen and (max-width:380px) {
+    .carrier-logo img {
+        width: 180px;
+    }
+}
